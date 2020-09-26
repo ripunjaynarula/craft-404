@@ -1,0 +1,200 @@
+
+.sponsbody{
+  text-align: center;
+  font-family: 'Work Sans';
+  color: white;
+}
+.speakercard{
+  display: flex;
+  width:70%;
+  /* height: 300px; */
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 24px;
+  overflow: hidden;
+   margin-left: auto;
+  margin-right: auto;
+  font: normal normal medium 24px/32px Montserrat;
+  box-shadow: 0px 40px 80px #00000063;
+}
+.spekpic{
+  width: 100%;
+  max-height: 400px;
+  flex: 1;
+  
+}
+.spekdesc{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  color: black;
+  background-color: #FFFFFF;
+  text-align: left;
+
+}
+.spekdesc h5{
+  font: normal normal bold 24px'Montserrat';
+  color: #305BC9;
+}
+.spekdesc div{
+  font: normal normal medium 32px Montserrat;
+  color: #012656;
+}
+img{
+  width: 100%;
+  /* height: 300px; */
+
+}
+.spkr-center{
+  padding-top: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  /* justify-content: center;s */
+  flex-direction: column;
+  /* align-items: center; */
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+.spekday{
+
+
+}
+.spekday h1{
+  font-size: 5rem;
+  position: relative;
+  left: -35%;
+  top:15px;
+  z-index: -1;
+  font-weight: 700;
+  letter-spacing: 0px;
+color: #305BC9;
+opacity: 1;
+}
+/* .sponsimg{
+} */
+.sponsimg img{
+  border-radius: 50%;
+  width: 80px;
+
+}
+.illus-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:10px;
+}
+.craftitemcard{
+  display: flex;
+  flex-direction:column;
+  justify-content:space-between;
+  width:240px;
+  padding: 2vw;
+  /* padding-top: 40px;
+  padding-bottom: 40px; */
+  background-color:#305BC9;
+  height:240px;
+  border-radius:16px;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  box-shadow: 0px 4px 12px #00000059;
+
+}
+.craftillus{
+  height: 45%;
+}
+.craftcont{
+  height: 45%;
+}
+.craftillus img{
+  width: 45%;
+  height: 100%;
+  
+  }
+  .atcraft404{
+    background-color: #305BC9;
+    /* font-size: 2.3rem !important; */
+  }
+.registernow{
+  position: relative;
+  /* display: flex; */
+}
+.pattern1{
+  position: absolute;
+  z-index: -1;
+  top:0;
+  left:-3vw;
+  width:12vw;
+}
+.pricebg{
+  position: absolute;
+  z-index: -1;
+  top:-25%;
+  left: -5px;
+  right: 0    ;
+}
+.rgnow{
+}
+.rgprice{
+  font: normal normal bold 2.5rem 'Work Sans';
+
+}
+.rgprice span{
+  /* position: relative;
+  top:5px; */
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+.rghead{
+  /* margin-top: 40px; */
+  font-size:2.5rem;
+  font-weight: bold;
+}
+
+.rgnow-btn{
+  margin: 5% 0;
+  font-weight: bold;
+  padding: 10px 3px;
+  outline: none;
+  width: 40%;
+  border-radius: 8px;
+  background-color: #305BC9;
+  color: white;
+  border: 0 solid black;
+}
+@media screen and (max-width: 600px) {
+  .craftitemcard{
+     width: 100%;
+     height: 170px;
+     /* height: 100%; */
+      padding: 2vw;
+      font-size: 0.8rem;
+  }
+  
+  .craftillus img{
+      width: 35%;
+  
+  }
+  .pricebg{
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      top:-10px;
+      bottom:10px;
+      left: -5px;
+      right: 0    ;
+  }
+  .spekday h1{
+      font-size: 4rem;
+      position: static;
+      font-weight: 700;
+      letter-spacing: 0px;
+      color: #305BC9;
+      opacity: 1;
+  }
+  .atcraft404{
+    background-color: #305BC9;
+    font-size: 2.3rem !important;
+  }
+}
+

@@ -1,0 +1,219 @@
+
+.cont1{
+    text-align: center;
+    margin-top:5%;
+    align-items: center;
+    margin-bottom: 10%;
+}
+.AboutUsTitle{
+    font-size:500%;
+    font: normal normal bold 60px/93px "Work Sans";
+    text-align: center;
+    align-items: center;
+    z-index: 9999999999;
+    height: 93px;
+    position: relative;
+    letter-spacing: 0px;
+    color:#FFFFFF;
+    opacity: 100%;
+    /*background-color: #305BC9;*/
+}
+.bluebox123{
+    position: absolute;
+    bottom:5px;
+    background-color: #305BC9;
+    z-index: -99999 !important;
+    width: 100%;
+    height: 40px;
+    left:0;
+    right:0;
+}
+
+p{
+    color: #FFFFFF;
+    font-size:20px;
+    font-family: 'Montserrat';
+}
+
+.belowAboutUs{
+    margin-top:8%;
+}
+
+.stc{
+    /* margin-top:0; */
+    margin-bottom:20%;
+}
+
+.x{
+    font-family: 'Work Sans';
+    margin-top:3%;
+}
+.imgX{
+    width:30px;
+}
+
+.siamImg{
+    padding-top:15px;
+}
+
+.siam{
+    /* margin-top:6 */
+    margin-bottom:20%;
+}
+
+.socialMediaIcons{
+    /* margin-bottom:20%; */
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.icons{
+    margin-left:7%;
+    margin-right:7%;
+    width:50px;
+}
+
+.leaveMessage{
+    font-size: 200%;
+    margin-top:20px;
+    margin-bottom:10%;
+    font:normal normal bold 32px/57px Work Sans;
+    letter-spacing: 0px;
+}
+
+.formLabel1{
+    font-size:20px;
+    margin-bottom:0;
+    margin-top:5%;
+    font: normal normal 600 20px/29px Montserrat;
+}
+
+.formLabel2{
+    font-size:20px;
+    margin-bottom:0;
+    margin-top:0;
+    font: normal normal 600 20px/29px Montserrat;
+}
+
+.formInput{
+    width:70%;
+    height:40px;
+    border:3px solid #305bC9;
+    font-size:18px;
+    background-color: #012656;
+    color: #FFFFFF;
+    border-radius: 8px;
+    margin-top:5px;
+    outline: none;
+    outline-width: 0;
+}
+
+.messageBox{
+    width:90%;
+    height: 200px;
+    border:3px solid #305bC9;
+    font-size:18px;
+    outline: none;
+    outline-width: 0;
+    background-color: #012656;
+    color:#FFFFFF;
+    border-radius: 10px;
+    margin-top:5px;
+}
+
+.send{
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Work Sans','SemiBold Roman';
+}
+
+.sendbtn{
+    background-color: #305BC9;
+    border-radius: 5px;
+    width:150px;
+    height:50px;
+    border:none;
+    color:#FFFFFF;
+}
+
+#hide1{
+    display:inline;
+}
+
+#hideBTN1{
+    display:none;
+}
+
+#hide2{
+    display:inline;
+}
+
+#hideBTN2{
+    display:none;
+}
+
+.hidden{
+    margin-top:30px;
+    margin-bottom:30px;
+    padding-bottom:50px;
+}
+
+.readBTN{
+    color:#FFFFFF;
+    font-size: 24px;
+    background-color: #012656;
+    outline:0;
+    outline-width: 0;
+    border:none;
+}
+
+button:focus{
+    outline: none;
+    border: none;
+}
+
+.arrow{
+    margin-left:10px;
+}
+
+
+@media screen and (max-width: 800px){
+    .leaveMessage{
+        align-items: center;
+        text-align: center;
+    }
+    .formInput{
+        align-items: center;
+        text-align: center;
+        width:100%;
+    }
+    .formLabel2{
+        margin-top:30px;
+    }
+    .messageBox{
+        width:100%;
+    }
+    .send{
+        margin-bottom:100px;
+    }
+    #hideBTN1{
+        display:inline;
+    }
+    #hideBTN2{
+        display:inline;
+    }
+    .hide{
+        display:none !important;
+    }
+}
+
+
+.logoIcons{
+    margin-top: 2%;
+    width: 70%;
+}
+.logoIconsdiv{
+    min-height: 10vw;
+}

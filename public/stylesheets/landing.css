@@ -1,0 +1,359 @@
+body{
+  font-family: 'Work Sans';
+  
+}
+
+@media (min-width: 300px) {
+  #stc {
+    width: 55px;
+    margin-right: -48px;
+  }
+}
+
+@media (min-width: 300px) {
+  #siam {
+    width: 70px;
+    margin-left: -32px;
+    padding-right: 6px;
+    margin-right: 88px;
+  }
+
+}
+
+#mainNav .navbar-brand {
+  color: rgb(255,255,255);
+  margin-left: 31px;
+}
+
+@media (min-width: 1200px) {
+  #stc {
+    margin-right: -40px;
+    margin-left: -90px;
+    width: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #siam {
+    margin-left: -22px;
+    width:100px;
+  }
+}
+
+@media (min-width: 300px) {
+  #gravitas {
+    visibility: visible;
+    width: 0px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #gravitas {
+    width: 200px;
+    padding-left: 2%;
+  }
+}
+@media (min-width: 300px){
+  
+.regButton-main {
+  box-shadow:inset 1px 0px 0px 0px #00000038 ;
+  background-color:#305bc9;
+  border-radius:9px;
+  border:1px solid #305bc9;
+  display:block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Work Sans;
+  font-size:28px;
+  text-shadow:0px 1px 0px #305bc9;
+  text-align: center;
+  width: 170px;
+  padding-top: 11px;
+  padding-bottom:11px ;
+  margin-left: 26.6%;
+  margin-top: 10%;
+  font-size: medium;
+  overflow-x: hidden;
+ 
+}
+#topleft{
+  width: 40%;
+  margin-top: 18.5%;
+  overflow-x: hidden;
+  margin-left: -13%;
+}
+#craft{
+  width: 90%;
+  margin-left: 5.3%;
+  margin-top: -15%;
+  
+}
+#navbarResponsive{
+  background-color: #012656;
+  padding-left: 1%;
+  overflow-x: hidden;
+}
+#desc{
+  opacity: 0.7;
+  transform: translateY(-32px);
+  overflow-x: hidden;
+
+}
+#mainNav{
+  background-color:  #012656;
+  font-family: Work Sans;
+}
+#desc{
+  margin-top: -6.5%;
+  margin-left: 23.2%;
+  overflow-x: hidden;
+  font-size: medium;
+}
+#date{
+  margin-left: 27.2%;
+  font-size: 15px;
+  margin-top: -10.5%;
+  overflow-x: hidden;
+
+}
+#laptop{
+  display: none;
+}
+
+#arrowup{
+  width: 8%;
+  margin-top: -295%;
+  margin-left: 80%;
+  overflow-x: hidden;
+}
+#lsquare{
+  margin-left: -16%;
+  padding-right: 3.5%;
+  margin-top: -85%;
+  width: 35%;
+
+  overflow-x: hidden;
+}
+#abtbox{
+  width: 66.5%;
+  margin-left: 57%;
+padding-bottom: 0%;
+margin-top: 435%;
+height: 70px;
+overflow-x: hidden;
+
+}
+#arrowr{
+  width: 16%;
+  margin-bottom: -30%;
+  margin-left: -12%;
+  overflow-x: hidden;
+
+}
+#rsquare{
+  width: 35%;  
+  margin-left: 91.5%;
+  margin-top: -153%;
+  overflow-x: hidden;
+}
+#wave{
+   width:16%;
+    margin-bottom: -96.5%;
+    margin-left: 88%;
+    transform: translateY(-90%);
+}
+#triangle{
+  width: 35%;
+  margin-bottom: -92.5%;
+  margin-left: 10%;
+}
+#abt-head{
+
+  margin-top: -400%;
+  padding-top: 5%;
+}
+#abt-head-text{
+  font-family: Work Sans Extrabold ;
+  font-size: 32px;
+  margin-left: 14.5%;
+  margin-top: -6.3% ;
+  
+}
+#abtbox{
+  width: 72.5%;
+  margin-left: 12.9%;
+padding-bottom: 0%;
+margin-bottom: -12%;
+}
+
+#abt-text{
+
+  margin-left: 7%;
+  margin-right: 5%;
+  font-size: 15px;
+  margin-bottom: 0%;
+  opacity: 0.8;
+}
+#abt-img{
+  width: 70%;
+  margin-left:16%;
+  margin-top: 5%;
+  padding-bottom: 15%;
+}
+
+}
+
+@media (min-width: 1000px){
+  #navbarResponsive{
+    background-color: rgb(1,38,86,0);
+    
+  }
+  .regButton-main {
+    background-color:#305bc9;
+    border-radius:6px;
+    border:1px solid #305bc9;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Work Sans;
+    font-size:15px;
+    padding:9px 23px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #305bc9;
+    text-align: center;
+    align-content: center;
+    transform: translateX(31%);
+    margin-top: 0.5%;
+    width: 160px;
+    padding-top: 13px;
+    padding-bottom:13px ;
+    box-shadow: black 0px 2px 5px 0.02px ;
+    margin-left: 16.7%;
+    
+  }
+  .regButton-main:hover {
+    background-color:#1541b0;
+    color: #FFFFFF;
+    border:1px solid #1541b0;
+    text-shadow:0px 1px 0px #1541b0;
+  }
+  .regButton-main {
+    background-color:#305bc9;
+  }
+  .regButton-main {
+    position:relative;
+    top:1px;
+  }
+  #craft{
+    width: 30%;
+    margin-top: -7%;
+    margin-left: 10.5%;
+    
+  }
+  #desc{
+    margin-top: -6.5%;
+    margin-left: 17.2%;
+    font-size: 20.5px;
+    transform: translateY(0px);
+
+  }
+  #date{
+    font-size: large;
+    margin-left: 18.75%;
+    margin-top: -1%;
+  }
+  #topleft{
+    width: 10%;
+    margin-top: 2.5%;
+    margin-left: -2%;
+  }
+  #laptop{
+    width: 53%;
+    margin-left: 40%;
+    margin-top: -37%;
+    display: block;
+  }
+  #lsquare{
+    margin-left: -4%;
+    padding-right: 3.5%;
+    margin-top: -49%;
+    width: 12%;
+  }
+  #arrowr{
+    width: 6%;
+    margin-top: -15%;
+    margin-left: 4.5%;
+    margin-bottom: 0%;
+
+  }
+  #triangle{
+    width: 12%;
+    margin-top: -6.5%;
+    margin-left: 43%;
+    margin-bottom: 0%;
+}
+  #arrowup{
+    width: 2.5%;
+    margin-top: -87%;
+    margin-left: 91%;
+  }
+  #rsquare{
+    width: 10%;  
+    margin-left: 94%;
+    margin-top: -55%;
+  }
+  #abt-head{
+
+    margin-top: -5%;
+    padding-top: 5%;
+  }
+  #abt-head-text{
+    font-family: Work Sans Extrabold ;
+    font-size: 50px;
+    padding-left: 7.5%;
+    margin-top: -6.3% ;
+    margin-left: 0%;
+
+    
+  }
+  #abtbox{
+    width: 26.5%;
+    margin-left: 7%;
+  padding-bottom: 2%;
+  margin-bottom: -0%;
+  margin-top: 0%;
+
+
+
+  }
+  .behind{
+    z-index: -1;
+  }
+  #abt-text{
+
+    margin-left: 7%;
+    margin-right: 55%;
+    font-size: 17.5px;
+    margin-bottom: 10%;
+  }
+  #mainNav{
+    padding-top: 40px;
+    padding-bottom: 2%;
+    background-color:  #012656;
+  }
+  #abt-img{
+    width: 70%;
+    margin-left: 150%;
+    margin-top: -88%;
+  }
+  #wave{
+    width: 5%;
+    margin-top: -15.5%;
+    margin-left: 95%;
+    transform: translateY(-420%);
+
+  }
+  #dots{
+    visibility: hidden;
+  }
+}

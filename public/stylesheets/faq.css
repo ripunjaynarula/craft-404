@@ -1,0 +1,335 @@
+
+        /* faq css */
+
+        .faq {
+            max-width: 1358px;
+            margin: 0 auto;
+
+        }
+
+        .faq-container {
+            max-width: 80vw;
+            margin: 0 auto;
+        }
+
+        .faq-head {
+            text-align: center;
+            font-size: 80px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .accordian-head {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: left;
+            font-family: Montserrat;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            opacity: 1;
+        }
+
+        .acc-head1 {
+            display: flex;
+            align-items: center;
+            flex:1;
+            /* border: black solid 2px; */
+           
+
+        }
+
+        .accordion {
+            padding: 0px 20px;
+            cursor: pointer;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            transition: 0.4s;
+            height: 80px;
+
+            background: #305BC9 0% 0% no-repeat padding-box;
+            box-shadow: 0px 12px 24px #00000029;
+            border-radius: 16px;
+            opacity: 1;
+        }
+
+        .acc-head-count {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .acc-head-txt {
+            flex-grow: 1;
+            font-size: 1rem;
+            margin-left: 15px;
+        }
+
+        .active {
+            border: none;
+            outline: none;
+        }
+
+        .panel {
+            color: whitesmoke;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+
+            background: #012656 0% 0% no-repeat padding-box;
+            border-radius: 0px 0px 16px 16px;
+            z-index: -1;
+        }
+
+        button:focus {
+            outline: none;
+        }
+
+        .panel p {
+            padding: 30px;
+        }
+
+        /* faq css end */
+
+        /* coordinator css  */
+
+        .coordinator {
+            max-width: 1400px;
+            /* border: 2px solid yellow; */
+            margin: 0 auto;
+
+        }
+
+        .coordinator-container {
+            max-width: 80vw;
+            /* border: pink solid 2px; */
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-family: 'Work Sans';
+        }
+
+        .coordinator-txt {
+            color: white;
+            font-size: 2rem;
+            width: 40%;
+            /* border: red solid 2px; */
+        }
+
+        .coordinator-box {
+            width: 50%;
+            background: #305BC9;
+            box-shadow: 0px 40px 80px #00000038;
+            border-radius: 24px;
+            opacity: 1;
+            /* padding:20px; */
+            /* height:250px; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        .coordinator-box-contain {
+            /* widows: 100%;*/
+            /* padding: 50px; */
+            display: flex;
+            align-items: center;
+            /* border:white 2px solid; */
+            font-size: 22px;
+            color: white;
+            justify-content: space-between;
+        }
+
+        .coord1 {
+            text-align: center;
+        }
+        .coord1 span {
+            font-weight: bold;
+        }
+
+        .coord2 {
+            text-align: center;
+        }
+        .coord2 span {
+            font-weight: bold;
+        }
+
+        .line {
+            border: 0.1px white solid;
+            height: 200px;
+        }
+
+        /* coordinator css end */
+
+
+        /* faq media queries */
+
+        @media screen and (max-width: 500px) {
+
+            .acc-head2 {
+                display: none;
+            }
+
+            .acc-head-txt,
+            .panel p {
+                font-size: 11px;
+            }
+
+            .acc-head-count {
+                /* font-size: 21px; */
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+
+        }
+
+        @media screen and (max-width: 771px) {
+
+            .acc-head-txt,
+            .panel p {
+                font-size: 15px;
+            }
+
+            .faq-head{
+                font-size:60px;
+            }
+
+        }
+
+        @media screen and (max-width: 430px){
+            
+            .acc-head-txt,
+            .panel p {
+                font-size: 12px;
+            }
+
+            .faq-head{
+                font-size:40px;
+            }
+        }
+
+        /* faq media queries end */
+
+        /* coordinator media queries */
+
+        @media screen and (max-width: 1400px) {
+
+
+            .coordinator-txt {
+                font-size: 35px;
+            }
+
+            .coordinator-box-contain {
+                font-size: 19px;
+            }
+
+            .line {
+                height: 180px;
+            }
+
+        }
+
+        @media screen and (max-width: 1220px) {
+
+
+            .coordinator-txt {
+                font-size: 30px;
+            }
+
+            .coordinator-box-contain {
+                font-size: 16px;
+            }
+
+            .line {
+                height: 150px;
+            }
+
+        }
+
+        @media screen and (max-width: 1060px) {
+
+
+            .coordinator-txt {
+                font-size: 25px;
+            }
+
+            .coordinator-box-contain {
+                font-size: 13px;
+            }
+            .line {
+                height: 130px;
+            }
+
+        }
+
+        @media screen and (max-width: 880px) {
+
+
+            .coordinator-txt {
+                font-size: 22px;
+            }
+
+            .coordinator-box-contain {
+                font-size: 11px;
+            }
+            .line {
+                height: 110px;
+            }
+        }
+
+        @media screen and (max-width: 768px){
+
+            .coordinator-container{
+                flex-direction: column;
+            }
+
+            .coordinator-txt{
+                width:100%;
+
+                font-size:37px;
+
+                margin-bottom:30px;
+                text-align: center;
+            }
+
+            .coordinator-box{
+                width: 100%;
+            }
+
+            .coordinator-box-contain{
+                font-size:20px;
+            }
+        }
+
+        @media screen and (max-width: 600px){
+            .coordinator-box-contain{
+                flex-direction: column;
+            }
+
+            .line{
+                margin-top:20px;
+                margin-bottom:20px;
+                height:0;
+                width:80%;
+            }
+        }
+
+        @media screen and (max-width: 511px){
+            .coordinator-txt{
+                font-size:28px;
+            }
+
+            .coordinator-box-contain{
+                font-size:18px;
+            }
+        }
+
+        @media screen and (max-width: 392px){
+
+            .coordinator-txt{
+                font-size:22px;
+            }
+        }
