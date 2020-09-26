@@ -6,8 +6,8 @@
     margin-bottom: 10%;
 }
 .AboutUsTitle{
-    font-size:500%;
-    font: normal normal bold 60px/93px "Work Sans";
+    /* font-size:500%; */
+    font: normal normal bold 3rem "Work Sans";
     text-align: center;
     align-items: center;
     z-index: 9999999999;
@@ -72,7 +72,7 @@ p{
 .icons{
     margin-left:7%;
     margin-right:7%;
-    width:50px;
+    width:41px;
 }
 
 .leaveMessage{
@@ -162,7 +162,9 @@ p{
 
 .readBTN{
     color:#FFFFFF;
-    font-size: 24px;
+    font-size: 1rem;
+    font-family: 'Montserrat' !important;
+    font-weight: medium;
     background-color: #012656;
     outline:0;
     outline-width: 0;
@@ -212,7 +214,7 @@ button:focus{
 
 .logoIcons{
     margin-top: 2%;
-    width: 70%;
+    width: 60%;
 }
 .logoIconsdiv{
     min-height: 10vw;
